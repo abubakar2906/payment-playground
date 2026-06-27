@@ -1,4 +1,4 @@
-import { Payment, PaymentStatus } from "../types/payment";
+import { Payment } from "../types/payment";
 import StatusBadge from "./StatusBadge";
 import { ArrowRight } from "lucide-react";
 

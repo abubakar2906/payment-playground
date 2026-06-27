@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 /* ─── Palette ─────────────────────────────────────────── */

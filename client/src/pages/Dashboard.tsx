@@ -29,7 +29,7 @@ export default function Dashboard() {
     const [payment,   setPayment]   = useState<Payment>();
     const [events,    setEvents]    = useState<PaymentEvent[]>([]);
     const [activeTab, setActiveTab] = useState<PaymentType>(PaymentType.CROSS_CURRENCY);
-    const intervalRef = useRef<ReturnType<typeof setInterval>>();
+    const intervalRef = useRef<ReturnType<typeof setInterval> | undefined>(undefined);
 
     useEffect(() => {
         if (!paymentId) return;
