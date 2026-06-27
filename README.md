@@ -1,0 +1,2 @@
+## Payment Pipeline
+Payment Pipeline is a visual simulator that models the lifecycle of a cross-border payment, from request creation through validation, compliance, FX, ledger posting, settlement, and completion. It is designed for learning how modern payment systems are orchestrated.
